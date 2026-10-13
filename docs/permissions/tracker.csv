@@ -1,0 +1,3 @@
+record_id,type,grantor_or_person,variety,material,date_requested,date_signed,status,ai_use_allowed,audio_use_allowed,credit,expires,file_location
+PERM-001,source,,,,,,requested,,,,,
+CONSENT-001,verifier,,,,,,requested,,,,,

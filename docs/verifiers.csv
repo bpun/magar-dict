@@ -1,0 +1,7 @@
+verifier_id,full_name,display_name,variety,role,community_affiliation,contact,consent_show_name,agreement_signed_date,status,notes
+V-DHU-01,,,dhut,primary,,,,,open,
+V-DHU-02,,,dhut,secondary,,,,,open,
+V-KHA-01,,,kham,primary,,,,,open,Note sub-variety/region
+V-KHA-02,,,kham,secondary,,,,,open,
+"V-KAI-01,,,kaike,primary,,,,,open,Small community; start outreach early"
+V-KAI-02,,,kaike,secondary,,,,,open,

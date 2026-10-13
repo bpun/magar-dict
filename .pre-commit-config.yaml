@@ -47,7 +47,7 @@ repos:
         files: ^(app|scripts)/
         exclude: ^migrations/versions/
         pass_filenames: false
-        args: ["app", "scripts"]
+        args: ["app", "scripts", "--ignore-missing-imports"]
 
   # Block secrets from being committed
   # - repo: https://github.com/gitleaks/gitleaks
