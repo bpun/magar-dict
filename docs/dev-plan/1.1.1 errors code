@@ -1,0 +1,16 @@
+Errors (block the load):
+
+Code	        Rule
+----------------------------------------------------
+E001	        Slug well-formed; gloss_en not empty
+E002	        Part of speech is in the controlled list
+E003	        Word has at least one dialect tag, and every tag is dhut, kham, or kaike
+E004	        Every dialect tag has a form, and every form has a matching tag
+E005	        No duplicate slugs
+E006	        Only one form per dialect per word
+E007	        form_script and form_romanized both present and NFC-normalized
+E008	        Imported status is DRAFT
+E009	        Source is in the permissions tracker with status signed, and has a license if the tracker has a license column
+E010	        No withheld form is present
+E011	        One romanization scheme per dialect
+E012/E013	    Sample sign-off is incomplete, or a sampled form was rejected

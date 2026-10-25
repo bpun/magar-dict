@@ -73,7 +73,6 @@ extend-exclude = "migrations/versions/"
 line-length = 88
 target-version = "py312"
 extend-exclude = ["migrations/versions"]
-
 [tool.ruff.lint]
 select = [
     "E",    # pycodestyle errors
@@ -108,6 +107,7 @@ strict = true
 warn_unreachable = true
 plugins = ["pydantic.mypy"]
 exclude = ["^migrations/versions/"]
+explicit_package_bases = true
 
 [[tool.mypy.overrides]]
 # Third-party libraries without complete type stubs
